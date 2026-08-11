@@ -1,5 +1,4 @@
 from abc import ABC, abstractmethod
-#this class the blueprint for the other events
 class event(ABC):
 	def __init__(self, name, date, location, capacity):
 		self.name = name
